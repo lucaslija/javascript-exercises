@@ -36,6 +36,7 @@ const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
 
 const btn2 = document.querySelector('#btn-2');
-btn.addEventListener('click', () => {
+btn2.addEventListener('click', (e) => {
     alert("Hello World");
+    e.target.style.background = 'blue';
 });
