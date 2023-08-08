@@ -30,3 +30,7 @@ div.appendChild(p2);
 container.appendChild(p);
 container.appendChild(h3);
 container.appendChild(div);
+
+// Button Stuff
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
